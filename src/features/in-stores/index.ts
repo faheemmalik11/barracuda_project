@@ -1,0 +1,7 @@
+export { InStoresPage } from './pages/InStoresPage'
+export { TerminalsListPage } from './pages/TerminalsListPage'
+export { InventoryListPage } from './pages/InventoryListPage'
+export { OrdersListPage } from './pages/OrdersListPage'
+export { TerminalDetailPage } from './pages/TerminalDetailPage'
+export { InventoryDetailPage } from './pages/InventoryDetailPage'
+export { OrderDetailPage } from './pages/OrderDetailPage'

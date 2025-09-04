@@ -1,0 +1,38 @@
+/* === REACT DAYPICKER COMPONENT STYLING === */
+.rdp-root {
+  --rdp-accent-color: var(--primary);
+  --rdp-accent-background-color: var(--primary);
+  --rdp-today-color: var(--primary);
+  --rdp-day-height: 36px;
+  --rdp-day-width: 36px;
+  --rdp-day_button-height: 32px;
+  --rdp-day_button-width: 32px;
+  --rdp-day_button-border-radius: calc(var(--radius) - 1px);
+  --rdp-nav_button-height: 28px;
+  --rdp-nav_button-width: 28px;
+  --rdp-months-gap: 1.5rem;
+  font-family: inherit;
+  font-size: 0.875rem;
+}
+
+.rdp-root .rdp-selected {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border-radius: calc(var(--radius) - 1px);
+  font-size: inherit;
+}
+
+.rdp-root .rdp-selected:hover {
+  background-color: var(--primary);
+  opacity: 0.9;
+}
+
+.rdp-root .rdp-today:not(.rdp-selected) {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.rdp-root .rdp-month_caption {
+  font-size: 0.875rem;
+  font-weight: 600;
+}

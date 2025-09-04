@@ -1,0 +1,45 @@
+import type { ClearingEntry } from "@shared/types/clearing"
+
+export const mockClearing: ClearingEntry[] = [
+  {
+    id: "clr_001",
+    transactionId: "txn_abc123",
+    amount: 1500.75,
+    currency: "USD",
+    status: "processing",
+    clearingHouse: "ACH",
+    submissionDate: "2024-05-28T10:00:00Z",
+    expectedClearingDate: "2024-05-30T17:00:00Z",
+  },
+  {
+    id: "clr_002",
+    transactionId: "txn_def456",
+    amount: 850.0,
+    currency: "EUR",
+    status: "pending",
+    clearingHouse: "SEPA",
+    submissionDate: "2024-05-29T11:30:00Z",
+    expectedClearingDate: "2024-06-01T17:00:00Z",
+  },
+  {
+    id: "clr_003",
+    transactionId: "txn_ghi789",
+    amount: 25000.0,
+    currency: "GBP",
+    status: "cleared",
+    clearingHouse: "CHAPS",
+    submissionDate: "2024-05-25T09:00:00Z",
+    expectedClearingDate: "2024-05-25T16:00:00Z",
+    actualClearingDate: "2024-05-25T15:30:00Z",
+  },
+  {
+    id: "clr_004",
+    transactionId: "txn_jkl012",
+    amount: 50.25,
+    currency: "USD",
+    status: "failed",
+    clearingHouse: "ACH",
+    submissionDate: "2024-05-27T14:00:00Z",
+    expectedClearingDate: "2024-05-29T17:00:00Z",
+  },
+]

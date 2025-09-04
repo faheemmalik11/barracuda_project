@@ -1,0 +1,65 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.enhanced-hover { 
+  @apply transition-all duration-150 hover:shadow-sm; 
+}
+
+/* GPU acceleration utilities - replaces inline styles */
+.transform-gpu {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.will-change-scroll {
+  will-change: scroll-position;
+} 
+
+/* Gradient animations keyframes */
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Gradient utility classes */
+.gradient-flow {
+  background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 25%, #3b82f6 50%, #06b6d4 75%, #10b981 100%);
+  background-size: 400% 400%;
+  animation: gradientFlow 15s ease infinite;
+}
+
+.gradient-overlay {
+  background: linear-gradient(45deg, #f97316 0%, #ef4444 25%, #ec4899 50%, #8b5cf6 75%, #3b82f6 100%);
+  background-size: 300% 300%;
+  animation: gradientFlow 12s ease infinite reverse;
+}
+
+.gradient-accent {
+  background: linear-gradient(225deg, #3b82f6 0%, #06b6d4 25%, #10b981 50%, #84cc16 75%, #eab308 100%);
+  background-size: 350% 350%;
+  animation: gradientFlow 18s ease infinite;
+}
+
+.backdrop-blur-subtle {
+  backdrop-filter: blur(8px) saturate(180%);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}

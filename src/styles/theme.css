@@ -1,0 +1,118 @@
+/* === CORE THEME VARIABLES === */
+:root {
+  /* Core Theme Colors */
+  --background: #ffffff;
+  --background-rgb: 255, 255, 255;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+  
+  /* Brand Colors */
+  --primary: #3b82f6;
+  --primary-foreground: #f8fafc;
+  --secondary: #e2e8f0;
+  --secondary-foreground: #1e293b;
+  --accent: #e2e8f0;
+  --accent-foreground: #0f172a;
+  
+  /* Neutral Colors */
+  --muted: #f1f5f9;
+  --muted-foreground: #475569;
+  --semi-foreground: #1e293b;
+  
+  /* Status Colors */
+  --success: #36B37E;
+  --success-foreground: #ffffff;
+  --warning: #FFB700;
+  --warning-foreground: #ffffff;
+  --destructive: #FF5630;
+  --destructive-foreground: #ffffff;
+  --neutral: #6B778C;
+  --neutral-foreground: #ffffff;
+  --info: #0052CC;
+  --info-foreground: #ffffff;
+  
+  /* Interactive Elements */
+  --border: #cbd5e1;
+  --input: #cbd5e1;
+  --ring: #3b82f6;
+  --radius: 0.375rem;
+  
+  /* Chart Colors */
+  --chart-1: #2563eb;
+  --chart-2: #059669;
+  --chart-3: #d97706;
+  --chart-4: #dc2626;
+  --chart-5: #7c3aed;
+  
+  /* Sidebar Theme */
+  --sidebar-background: #f8fafc;
+  --sidebar-foreground: #1e293b;
+  --sidebar-primary: #0f172a;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f1f5f9;
+  --sidebar-accent-foreground: #0f172a;
+  --sidebar-border: #e2e8f0;
+  --sidebar-ring: #2563eb;
+}
+
+/* === DARK MODE VARIABLES === */
+.dark {
+  /* Core Theme Colors */
+  --background: #0f172a;
+  --background-rgb: 15, 23, 42;
+  --foreground: #f8fafc;
+  --card: #1e293b;
+  --card-foreground: #f8fafc;
+  --popover: #1e293b;
+  --popover-foreground: #f8fafc;
+  
+  /* Brand Colors */
+  --primary: #3b82f6;
+  --primary-foreground: #f8fafc;
+  --secondary: #334155;
+  --secondary-foreground: #f8fafc;
+  --accent: #334155;
+  --accent-foreground: #f8fafc;
+  
+  /* Neutral Colors */
+  --muted: #334155;
+  --muted-foreground: #94a3b8;
+  --semi-foreground: #cbd5e1;
+  
+  /* Status Colors */
+  --success: #57D9A3;
+  --success-foreground: #0f172a;
+  --warning: #FFC400;
+  --warning-foreground: #0f172a;
+  --destructive: #FF7452;
+  --destructive-foreground: #0f172a;
+  --neutral: #8C9CB8;
+  --neutral-foreground: #0f172a;
+  --info: #2684FF;
+  --info-foreground: #0f172a;
+  
+  /* Interactive Elements */
+  --border: #334155;
+  --input: #334155;
+  --ring: #3b82f6;
+  
+  /* Chart Colors */
+  --chart-1: #60a5fa;
+  --chart-2: #34d399;
+  --chart-3: #fbbf24;
+  --chart-4: #f87171;
+  --chart-5: #a78bfa;
+  
+  /* Sidebar Theme */
+  --sidebar-background: #1e293b;
+  --sidebar-foreground: #cbd5e1;
+  --sidebar-primary: #60a5fa;
+  --sidebar-primary-foreground: #0f172a;
+  --sidebar-accent: #334155;
+  --sidebar-accent-foreground: #f8fafc;
+  --sidebar-border: #334155;
+  --sidebar-ring: #60a5fa;
+} 

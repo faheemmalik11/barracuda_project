@@ -1,0 +1,6 @@
+export { CustomersListPage } from './pages/CustomersListPage'
+export { CustomerTable } from '@shared/components/tables/CustomerTable'
+export { useCustomers } from './hooks/useCustomers'
+export { useCustomerActions } from './hooks/useCustomerActions'
+export { useCustomerFilters } from './hooks/useCustomerFilters'
+export * from './utils/formatters'
